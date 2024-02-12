@@ -6,14 +6,14 @@
   padding: 0;
   box-sizing:border-box;
 }
+
+html {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
 html{
   scroll-behavior: smooth;
 }
 
-a:hover{
-  background-color: rgb(28, 167, 28);
-  border-radius: 5px;
-}
 
 .about-section {
   display: flex;
@@ -47,10 +47,7 @@ a:hover{
 .sub-title{
   text-align: center;
 }
-p,
-h5{
-  text-align: center;
-}
+
 
 .tutorial-info{
   display: grid;
@@ -59,73 +56,13 @@ h5{
   margin-top: 50px;
 }
 
-/*----------------------------contact------------------*/
-#contact{
-  padding: 50px 0;
-  background: rgb(229, 219, 219);
-}
-.sub-title{
-  font-size: 50px;
-  font-weight: 600;
-  color: rgb(8, 8, 8);
-  border-bottom-width:  solid red;
-}
-nav .fa-solid{
-  display: none;
-}
-.contact-right form{
-  width: 100%;
-}
-form input, form textarea{
-  width: 100%;
-  border: 0;
-  outline: none;
-  background: #592442;
-  padding: 15px;
-  margin: 15px 0;
-  color: #fff;
-  font-size: 18px;
-  border-radius: 5px;
-}
-.contact-left{
-  flex-basis: 35%;
-}
-.contact-right{
-  flex: 60%;
-}
-.contact-left p{
-  margin-top: 30px;
-  color: black;
-}
-.contact-left p i{
-  color: #8f1d58;
-  margin-right: 15px;
-  font-size: 25px;
-}
-.social-icons{
-  margin-top: 30px;
-}
-.social-icons a{
-  text-decoration: none;
-  font-size: 30px;
-  margin-right: 15px;
-  color: #592442;
-  display: inline-block;
-  transition: transform 0.5s;
-}
-.social-icons a:hover{
-  color: rgb(52, 11, 233);
-  transform: translateY(-4px);
-}
-.contact-right button:hover{
-  color: black;
-  background-color:rgb(238, 232, 227);
-}
 
-.fotter-bottom{
-  background-color: black;
-  color: #fff;
-}
+
+  
+
+ 
+
+
 
 
 /* Media Queries */
@@ -174,4 +111,129 @@ form input, form textarea{
   .tutorial-info div iframe{
     flex-basis: 100%;
   }
+}
+
+.row .watermark {
+  color: #e6e6e6;
+  font-size: 48px;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  padding-right: 0;
+  font-family: 'bulgattiregular';
+}
+
+@media only screen and (max-width: 991px){
+.section-title .title {
+    font-size: 30px;
+}
+}
+
+.row .foundation-title {
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-bottom: 70px;
+  line-height: 0;
+  margin-top: -56px;
+}
+
+
+h1 {
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.card i {
+  font-size: 43px;
+  margin-bottom: 15px;
+  padding-top: 25px;
+  text-align: center;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.content-section{
+  background-image: url(abany.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+.content-section h6{
+  text-decoration: underline;
+  padding-bottom: 20px;
+}
+
+.content-section h3{
+  padding-bottom: 30px;
+}
+.content-section p{
+  color: black;
+  background-color: white;
+  width: 150px;
+  text-align: center;
+}
+
+.content-section .container{
+  padding-top: 110px;
+}
+
+.card{
+  border:none;
+  border-radius: unset;
+}
+
+.donation{
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 150px;
+}
+
+#projects .watermark{
+  color: #e6e6e6;
+  font-size: 48px;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  padding-right: 0;
+  font-family: 'bulgattiregular';
+}
+
+#projects h3{
+  font-size: 25px;
+  margin-bottom: 70px;
+  line-height: 0;
+  margin-top: -52px;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(33, 29, 29);
+}
+
+#contact{
+  background-color: #e6e6e6;
+}
+
+footer{
+  background-color: #e6e6e6;
+}
+
+.about-sec a{
+  color:black;
+  background-color:white;
+  width: 150px;
 }
