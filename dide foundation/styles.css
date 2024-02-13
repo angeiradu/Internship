@@ -230,10 +230,16 @@ a{
 
 footer{
   background-color: #e6e6e6;
+  padding-top: 10px;
+  padding-bottom: 2px;
 }
 
 .about-sec a{
   color:black;
   background-color:white;
   width: 150px;
+}
+
+.border-bottom{
+  padding-bottom: -30px;
 }
