@@ -234,3 +234,7 @@ footer{
 .border-bottom{
   padding-bottom: -30px;
 }
+
+.search-icon{
+  margin-left: 10px;
+}
